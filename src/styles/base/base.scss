@@ -1,19 +1,22 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: #F5F7FA;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: $max-container-width;
+p {
+  margin: 0;
 }
 
-.section {
-  margin-bottom: $section-margin-bottom;
-
-  &--no-margin {
-    margin-bottom: 0;
-  }
+h1,
+h2, 
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
-.footer {
-  margin-top: auto;
+a {
+  text-decoration: none;
+  color: #595959;
 }

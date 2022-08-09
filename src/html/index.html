@@ -6,17 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style-min.css" />
 </head>
 
 <body>
-  <div>
-    <!-- main__content -->
-    <div>
-      <div>
-        <h2>Front-End Developer</h2>
-        <h1>Dmytro Stychuk</h1>
-        <p>
+  <div class="main">
+    <div class="user">
+      <div class="user__content">
+        <h2 class="user__developer">Front-End Developer</h2>
+        <h1 class="user__name">Dmytro Stychuk</h1>
+        <p class="user__text">
           I successfully passed 2 freelance projects. I
           continue mypractice and training in the sphere of IT, Frontenddeveloper. I am looking for an opportunity to
           work withthose who are willing to share their knowledge and skills tobecome a full member of your team.I am
@@ -24,146 +26,164 @@
         </p>
       </div>
 
-      <div>
-        <h3>
+      <div class="projects">
+        <h3 class="user__title">
           Projects
         </h3>
 
-        <ol>
-          <li><a href="https://dmytrostychuk.github.io/britlex/#">https://dmytrostychuk.github.io/britlex/#</a>
-            ...........
-            [ HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, Swiper, BEM methodology ]
+        <ol class="projects__list">
+          <li class="project__item">
+            <span class="project__span">
+              <a class="project__link" href="https://dmytrostychuk.github.io/britlex/#">
+                https://dmytrostychuk.github.io/britlex/#
+              </a>
+              ...........
+              <span class="project__bracket">[</span>
+              <span>HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, BEM methodology</span>
+              <span class="project__bracket">]</span>
+            </span>
           </li>
-          <li><a href="https://dmytrostychuk.github.io/Denim/">https://dmytrostychuk.github.io/Denim/</a>
-            .............
-            [ HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, Swiper]
+          <li class="project__item">
+            <span class="project__span">
+              <a class="project__link" href="https://dmytrostychuk.github.io/Denim/">
+                https://dmytrostychuk.github.io/Denim/
+              </a>
+              ............
+              <span class="project__bracket">[</span>
+              <span>HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, Swiper</span>
+              <span class="project__bracket">]</span>
+            </span>
           </li>
-          </li>
-          <li><a href="https://dmytrostychuk.github.io/Focus/">https://dmytrostychuk.github.io/Focus/</a>
-            ..............
-            [ HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, Swiper]
-          </li>
+          <li class="project__item">
+            <span class="project__span">
+              <a class="project__link" href="https://dmytrostychuk.github.io/Focus/">
+                https://dmytrostychuk.github.io/Focus/
+              </a>
+              ..............
+              <span class="project__bracket">[</span>
+              <span>HTML5, CSS3, JavaScript, GULP, PixelPerfect, Sass, Swiper</span>
+              <span class="project__bracket">]</span>
+            </span>
           </li>
         </ol>
       </div>
 
-      <div>
-        <h3>
+      <div class="experience">
+        <h3 class="user__title">
           Work Experience
         </h3>
 
         <div>
-          <h4>
-            Front-End Developer Freelance
+          <h4 class="experience__title">
+            Front-End Developer <span class="experience__enterprise">Freelance</span>
           </h4>
 
-          <p>September 2021 - up to now | Ukraine</p>
+          <p class="experience__data">September 2021 - up to now <span class="experience__data-line">|</span> Europe</p>
 
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. </li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Risus commodo viverra maecenas. </li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+          <ul class="user__list">
+            <li>Development of sites according to the layout</li>
+            <li>Work with customers.</li>
+            <li>Fast and high-quality performance of work.</li>
           </ul>
         </div>
 
         <div>
-          <h4>
-            Designer engineer
+          <h4 class="experience__title">
+            Designer engineer <span class="experience__enterprise">Armax</span>
           </h4>
 
-          <p>October 2017 - up to now| Ukraine</p>
+          <p class="experience__data">June 2022 - up to now <span class="experience__data-line">|</span> Ukraine</p>
 
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.
-            </li>
-            <li>Quis ipsum suspendisse ultrices gravida.</li>
-            <li>Risus commodo viverra maecenas.</li>
+          <ul class="user__list">
+            <li>Development of drawings.</li>
+            <li>Quality control.</li>
+            <li>CNC manufacturing for equipment.</li>
           </ul>
         </div>
         <!-- Третє місце роботи. -->
         <div>
-          <h4>
-            Manager Roga & Kopyta LLC
+          <h4 class="experience__title">
+            Technical director <span class="experience__enterprise">Suchoviy</span>
           </h4>
 
-          <p>June 2014 - February 2015 | Ukraine</p>
+          <p class="experience__data">September 2018 - January 2022 <span class="experience__data-line">|</span> Ukraine
+          </p>
 
-          <ul>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li>Quis ipsum suspendisse ultrices gravida.</li>
-            <li>Risus commodo viverra maecenas.</li>
+          <ul class="user__list">
+            <li>Work with customers.</li>
+            <li>Quality control.</li>
+            <li>Planning the working day for employees.</li>
           </ul>
         </div>
       </div>
 
-      <!-- Education -->
-      <div>
-        <h3>
+      <div class="education">
+        <h3 class="user__title">
           Education
         </h3>
         <div>
-          <h4>Lesya Ukrainka Volyn National University</h4>
-          <ul>
-            <li>Bachelor's degree in Physical Education and Health
-              <p>Graduated in May 2018 | Ukraine</p>
-            </li>
-            <li>Master's degree in Secondary Education Graduated in February 2020</li>
-          </ul>
-          <p>Graduated in February 2020 | Ukraine</p>
+          <h4 class="experience__enterprise">Lesya Ukrainka Volyn National University</h4>
+          <p class="education__text">Bachelor's degree in Physical Education and Health</p>
+          <p class="experience__data education__data">Graduated in May 2018 <span class="experience__data-line">|</span>
+            Ukraine</p>
+          <p class="education__text">Master's degree in Secondary Education</p>
+          <p class="experience__data education__data">Graduated in February 2020 | Ukraine<span
+              class="experience__data-line">|</span>
+            Ukraine</p>
+
+          <p></p>
         </div>
       </div>
     </div>
 
-    <!-- aside -->
-    <aside>
-      <img src="img/SB-34.JPG" alt="User photo" width="200">
+    <aside class="sidebar">
+      <img class="user-photo" src="img/SB-34.JPG" alt="User photo" width="370">
 
-      <div>
-        <h3>
+      <div class="sidebar__block contact">
+        <h3 class="sidebar__title">
           Contacts
         </h3>
         <div>
-          <p>C: <a href="tel:+380687945051">+380 (68) 79 45 051</a></p>
           <p>
-            E: <a href="mailto:fenderchord@gmail.com">fenderchord@gmail.com</a>
+            <span class="contact__type">C:</span>
+            <a class="contact__link" href="tel:+380687945051"> +380 (68) 79 45 051</a>
+          </p>
+          <p>
+            <span class="contact__type">E:</span>
+            <a class="contact__link contact__mail" href="mailto:fenderchord@gmail.com"> fenderchord@gmail.com</a>
           </p>
         </div>
 
       </div>
 
-      <div>
-        <h3>
+      <div class="sidebar__block tech">
+        <h3 class="sidebar__title">
           Tech Skills
         </h3>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>GIT</li>
-          <li>WebPack</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Node.js</li>
+        <ul class="sidebar__list">
+          <li><span class="sidebar__list-text">HTML5</span> </li>
+          <li><span class="sidebar__list-text">CSS3</span></li>
+          <li><span class="sidebar__list-text">GIT</span></li>
+          <li><span class="sidebar__list-text">WebPack</span></li>
+          <li><span class="sidebar__list-text">JavaScript</span></li>
+          <li><span class="sidebar__list-text">React.js</span></li>
+          <li><span class="sidebar__list-text">Node.js</span></li>
         </ul>
       </div>
 
       <!-- Soft Skills -->
-      <div>
-        <h3>
+      <div class="sidebar__block">
+        <h3 class="sidebar__title">
           Soft Skills
         </h3>
-        <ul>
-          <li>Scrum</li>
-          <li>Agile</li>
-          <li>GTD</li>
-          <li>Teamwork</li>
+        <ul class="sidebar__list">
+          <li><span class="sidebar__list-text">Scrum</span></li>
+          <li><span class="sidebar__list-text">Agile</span></li>
+          <li><span class="sidebar__list-text">GTD</span></li>
+          <li><span class="sidebar__list-text">Teamwork</span></li>
         </ul>
       </div>
-  </div>
-  </aside>
+    </aside>
   </div>
 
 </body>
